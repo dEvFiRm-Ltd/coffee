@@ -10,7 +10,7 @@ const NavigationSchema = new Schema({
         type: String,
         trim: true,
     },
-    Sequence: {
+    sequence: {
         type: Number,
         required: true,
     },
