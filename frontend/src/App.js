@@ -1,7 +1,7 @@
 import './App.css';
 import AboutUs from './Components/AboutUs';
 import Blogs from './Components/Blogs';
-import ContactUs from './Components/Contact copy';
+import ContactUs from './Components/Contact';
 import Footer from './Components/Footer';
 import Hero from './Components/Hero';
 import Navigation from './Components/Navigation';
