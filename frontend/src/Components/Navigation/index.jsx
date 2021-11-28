@@ -6,21 +6,35 @@ const Navigation = () => {
     return (
         <header className="header">
             <a href="#!" className="logo">
-                <img src="images/logo.png" alt="" />
+                <img src={`${process.env.PUBLIC_URL}/images/logo.png`} alt="" />
             </a>
 
             <nav className="navbar">
-                <a href="#home">home</a>
-                <a href="#about">about</a>
-                <a href="#menu">menu</a>
-                <a href="#products">products</a>
-                <a href="#review">review</a>
-                <a href="#contact">contact</a>
-                <a href="#blogs">blogs</a>
+                <a href="#home" className="nav-items">
+                    home
+                </a>
+                <a href="#about" className="nav-items">
+                    about
+                </a>
+                <a href="#menu" className="nav-items">
+                    menu
+                </a>
+                <a href="#products" className="nav-items">
+                    products
+                </a>
+                <a href="#review" className="nav-items">
+                    review
+                </a>
+                <a href="#contact" className="nav-items">
+                    contact
+                </a>
+                <a href="#blogs" className="nav-items">
+                    blogs
+                </a>
             </nav>
 
             <div className="icons">
-                <div className="fas fa-search" id="search-btn" />
+                {/* <div className="fas fa-search" id="search-btn" /> */}
                 <div className="fas fa-shopping-cart" id="cart-btn" />
                 <div className="fas fa-bars" id="menu-btn" />
             </div>
@@ -35,7 +49,7 @@ const Navigation = () => {
             <div className="cart-items-container">
                 <div className="cart-item">
                     <span className="fas fa-times" />
-                    <img src="images/cart-item-1.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cart-item-1.png`} alt="" />
                     <div className="content">
                         <h3>cart item 01</h3>
                         <div className="price">$15.99/-</div>
@@ -43,7 +57,7 @@ const Navigation = () => {
                 </div>
                 <div className="cart-item">
                     <span className="fas fa-times" />
-                    <img src="images/cart-item-2.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cart-item-2.png`} alt="" />
                     <div className="content">
                         <h3>cart item 02</h3>
                         <div className="price">$15.99/-</div>
@@ -51,7 +65,7 @@ const Navigation = () => {
                 </div>
                 <div className="cart-item">
                     <span className="fas fa-times" />
-                    <img src="images/cart-item-3.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cart-item-3.png`} alt="" />
                     <div className="content">
                         <h3>cart item 03</h3>
                         <div className="price">$15.99/-</div>
@@ -59,7 +73,7 @@ const Navigation = () => {
                 </div>
                 <div className="cart-item">
                     <span className="fas fa-times" />
-                    <img src="images/cart-item-4.png" alt="" />
+                    <img src={`${process.env.PUBLIC_URL}/images/cart-item-4.png`} alt="" />
                     <div className="content">
                         <h3>cart item 04</h3>
                         <div className="price">$15.99/-</div>

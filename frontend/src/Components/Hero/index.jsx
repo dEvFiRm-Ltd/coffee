@@ -4,7 +4,13 @@ import './main';
 
 const Hero = () => {
     return (
-        <section className="home" id="home">
+        <section
+            className="home"
+            id="home"
+            style={{
+                background: `url(${process.env.PUBLIC_URL}/images/home-img.jpeg) no-repeat`,
+            }}
+        >
             <div className="content">
                 <h3>fresh coffee in the morning</h3>
                 <p>
