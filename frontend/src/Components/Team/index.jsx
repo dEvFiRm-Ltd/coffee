@@ -2,8 +2,8 @@ import React from 'react';
 import './main';
 import './team.css';
 
-const Navigation = () => {
+const Team = () => {
     return <div />;
 };
 
-export default Navigation;
+export default Team;
