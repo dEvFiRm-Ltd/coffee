@@ -115,3 +115,5 @@ package-lock.json
 
 .eslintignore
 .eslintrc.json
+
+prettier.config.js
