@@ -51,5 +51,48 @@ Navigation api: {
 }
 
 auth api: {
+    user register :{
+        url: http://localhost:5000/user/signup/
+        method:post
+        request:{
+            "userName": "hasib",
+            "email": "hasib@gmail.com",
+            "password": "1233456"
+        }
+        responce: {
+                "message": "User created successfully",
+                "user": {
+                    "userName": "hasib",
+                    "email": "hasib@gmail.com",
+                    "password": "$2b$11$WiL3b9jhutLNzAg0Xv.HBuTvx7lnkSHjSH6ZBNjJ2RYx4XXSAK3vq",
+                    "_id": "61a47dd6f561a41f73b8c4d0",
+                    "createdAt": "2021-11-29T07:14:30.765Z",
+                    "updatedAt": "2021-11-29T07:14:30.765Z",
+                    "__v": 0
+                }
+        }
+    }
+
+    login: {
+        url : http://localhost:5000/login/
+        method: post
+        request:{
+            "email": "hasib@gmail.com",
+            "password": "1233456"
+        }with header :{
+            Authorization : Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWE0NDY3YzY3ZWQ3N2NiOGE3NDliMTEiLCJ1c2VyTmFtZSI6Ik1hcnVmIiwiaWF0IjoxNjM4MTY3NDgyfQ.16dqN-duykgUzD8J08M2WCmJt1u7r5ZV-SKb1P3qTto
+        }
+
+        responce:{
+            {
+                "message": "User logged in successfully",
+                "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MWE0N2RkNmY1NjFhNDFmNzNiOGM0ZDAiLCJ1c2VyTmFtZSI6Imhhc2liIiwiaWF0IjoxNjM4MTcwMjAxfQ.UU4YF0tHAsZ6peNUWxo8Pw01VN3Pk00q7jY9Yy8kdso",
+                "user": {
+                    "userName": "hasib",
+                    "email": "hasib@gmail.com"
+                }
+            }
+        }
+    }
 
 }
