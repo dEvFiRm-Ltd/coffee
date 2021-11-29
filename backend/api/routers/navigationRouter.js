@@ -6,7 +6,9 @@ const {
     navigationDeleteController,
 } = require('../controllers/navigationController');
 
-router.get('/', navigationGetConroller);
+const permisstion = require('../../middlewares/isLoggedIn');
+
+router.get('/', permisstion, navigationGetConroller);
 router.post('/', navigationPostController);
 router.put('/:id', navigationPutController);
 router.delete('/:id', navigationDeleteController);
