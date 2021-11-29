@@ -12,7 +12,7 @@ import './user.css';
 
 const UserPanel = () => {
     return (
-        <>
+        <div className="users">
             <Navigation />
             <Hero />
             <AboutUs />
@@ -22,7 +22,7 @@ const UserPanel = () => {
             <ContactUs />
             <Blogs />
             <Footer />
-        </>
+        </div>
     );
 };
 
