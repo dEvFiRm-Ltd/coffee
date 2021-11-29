@@ -1,13 +1,19 @@
-import './App.css';
-import AboutUs from './Components/AboutUs';
-import Blogs from './Components/Blogs';
-import ContactUs from './Components/Contact';
-import Footer from './Components/Footer';
-import Hero from './Components/Hero';
-import Navigation from './Components/Navigation';
-import Products from './Components/Products';
-import Reviews from './Components/Reviews';
-import Team from './Components/Team';
+/* User Panel */
+import AboutUs from './Components/UserPanel/AboutUs';
+import Blogs from './Components/UserPanel/Blogs';
+import ContactUs from './Components/UserPanel/Contact';
+import Footer from './Components/UserPanel/Footer';
+import Hero from './Components/UserPanel/Hero';
+import Navigation from './Components/UserPanel/Navigation';
+import Products from './Components/UserPanel/Products';
+import Reviews from './Components/UserPanel/Reviews';
+import Team from './Components/UserPanel/Team';
+import './user.css';
+
+
+/* Admin Panel */
+
+
 
 const App = () => {
     return <>
