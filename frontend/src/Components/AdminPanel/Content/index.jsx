@@ -6,8 +6,8 @@ import './main.css';
 const Content = () => {
     return (
         <div className="page-content pt-0">
-            <Outlet />
             <Sidebar />
+            <Outlet />
         </div>
     );
 };
