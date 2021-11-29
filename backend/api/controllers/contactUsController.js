@@ -16,7 +16,7 @@ exports.contactUsGetController = async (req, res) => {
     }
 };
 exports.contactUsPostController = async (req, res) => {
-    const {name, email, phone, details} = req.body;
+    const {name, email, phone, details } = req.body;
     const contactUs = new ContactUs({
         name,
         email,
@@ -31,6 +31,21 @@ exports.contactUsPostController = async (req, res) => {
         const contact = await ContactUs.create(contactUs);
         res.status(201).json({
             status: 201,
+            data: contact,
+        });
+    } catch (err) {
+        console.log(err);
+        res.status(500).json({
+            status: 500,
+            message: err.message,
+        });
+    }
+};
+exports.contactUsSignleGetController = async (req, res) => {
+    try {
+        const contact = await ContactUs.findById(req.params.id);
+        res.status(200).json({
+            status: 200,
             data: contact,
         });
     } catch (err) {
