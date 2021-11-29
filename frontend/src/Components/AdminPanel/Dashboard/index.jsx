@@ -5,7 +5,7 @@ const Dashboard = () => {
     return (
         <div className="content-wrapper">
             {/* Content area */}
-            <div className="content">
+            <div className="content" style={{ color: `#ffffff` }}>
                 {' '}
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum, veniam temporibus.
                 Natus ex rem nostrum voluptas labore fugiat soluta{' '}
