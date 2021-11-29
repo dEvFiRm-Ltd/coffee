@@ -7,7 +7,7 @@ const HeroSchema = new Schema(
             required: true,
             trim: true,
         },
-        image: String,
+        heroimage: String,
         description: {
             type: String,
             required: true,
