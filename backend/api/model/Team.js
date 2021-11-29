@@ -1,7 +1,7 @@
 const { Schema, model } = require('mongoose');
 
 const TeamSchema = new Schema({
-    memberNameq: {
+    memberName: {
         type: String,
         required: true,
         trim: true,
@@ -12,9 +12,9 @@ const TeamSchema = new Schema({
     },
     memberImage: String,
     socialLink: {
-        fb: String,
-        linkdId: String,
-        insta: String,
+        facebook: String,
+        linkdIn: String,
+        instagram: String,
         twitter: String,
         github: String,
     },
