@@ -16,7 +16,13 @@ exports.contactUsGetController = async (req, res) => {
     }
 };
 exports.contactUsPostController = async (req, res) => {
-    const {name, email, phone, details } = req.body;
+    // eslint-disable-next-line prettier/prettier
+    const {
+       name,
+       email,
+       phone,
+       details,
+    } = req.body;
     const contactUs = new ContactUs({
         name,
         email,
