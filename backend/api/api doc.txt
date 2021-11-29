@@ -1,0 +1,55 @@
+baselink: http://localhost:5000/
+
+
+Navigation api: {
+    read data:{
+          url: http://localhost:5000/navigation/
+          method : Get
+    }
+    responce:{
+           
+        "navigation": [
+            {
+                "_id": "61a3a1a3b7d952a16870044a",
+                "title": "Home",
+                "slug": "Home",
+                "sequence": 1,
+                "__v": 0
+            },
+            {
+                "_id": "61a43628c1f067e238f2c3c4",
+                "title": "About Us",
+                "slug": "about us",
+                "sequence": 3,
+                "__v": 0
+            }
+        ]
+    }
+
+}
+
+    write data:{
+       url : http://localhost:5000/navigation
+       method: post
+    }
+    request: {
+        "title": "About Us",
+        "slug": "about us",
+        "sequence": 3,
+
+    }
+
+    update data: {
+        url : http://localhost:5000/navigation/id
+        method: put
+    }
+
+    delete data : {
+        url : http://localhost:5000/navigation/id
+        method:delete
+    }
+}
+
+auth api: {
+
+}

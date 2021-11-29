@@ -1,21 +1,14 @@
 const navigationRouter = require('./navigationRouter');
+const authRouter = require('./authRouter');
 
 const routers = [
     {
-        path: '/about',
-        handeler: (req, res) => {
-            res.send('about');
-        },
-    },
-    {
-        path: '/router',
-        handeler: (req, res) => {
-            res.send('from router');
-        },
-    },
-    {
         path: '/navigation',
         handeler: navigationRouter,
+    },
+    {
+        path: '/user',
+        handeler: authRouter,
     },
     {
         path: '/',
