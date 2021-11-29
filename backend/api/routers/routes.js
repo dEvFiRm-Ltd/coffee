@@ -1,5 +1,6 @@
 const navigationRouter = require('./navigationRouter');
 const authRouter = require('./authRouter');
+const contactUsRouter = require('./contactUsRouter');
 
 const routers = [
     {
@@ -9,6 +10,10 @@ const routers = [
     {
         path: '/user',
         handeler: authRouter,
+    },
+    {
+        path: '/contactus',
+        handeler: contactUsRouter,
     },
     {
         path: '/',
