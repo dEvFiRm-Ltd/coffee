@@ -1,26 +1,17 @@
-import './App.css';
-import AboutUs from './Components/AboutUs';
-import Blogs from './Components/Blogs';
-import ContactUs from './Components/Contact';
-import Footer from './Components/Footer';
-import Hero from './Components/Hero';
-import Navigation from './Components/Navigation';
-import Products from './Components/Products';
-import Reviews from './Components/Reviews';
-import Team from './Components/Team';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import AdminPanel from './Components/AdminPanel/routes';
+import UserPanel from './Components/UserPanel';
 
 const App = () => {
-    return <>
-    <Navigation/>
-    <Hero/>
-    <AboutUs/>
-    <Team/>
-    <Products/>
-    <Reviews/>
-    <ContactUs/>
-    <Blogs/>
-    <Footer/>
-    </>;
+    return (<>
+        <BrowserRouter>
+            <Routes>
+                <Route path="/" exact element={<UserPanel />} />
+                <Route path="/admin" exact element={<AdminPanel />} />
+            </Routes>
+        </BrowserRouter>
+    </>
+    );
 };
 
 export default App;
