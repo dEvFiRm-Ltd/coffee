@@ -12,8 +12,8 @@ const Blogs = () => {
 
       <div className='box-container'>
         <div className='box'>
-          <div className='image'>
-            <Image src={`/images/blog-1.jpeg`} alt='' />
+          <div className='image' style={{ position: 'relative' }}>
+            <Image layout='fill' src={`/images/blog-1.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>
@@ -31,8 +31,8 @@ const Blogs = () => {
         </div>
 
         <div className='box'>
-          <div className='image'>
-            <Image src={`/images/blog-2.jpeg`} alt='' />
+          <div className='image' style={{ position: 'relative' }}>
+            <Image layout='fill' src={`/images/blog-2.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>
@@ -50,8 +50,8 @@ const Blogs = () => {
         </div>
 
         <div className='box'>
-          <div className='image'>
-            <Image src={`/images/blog-3.jpeg`} alt='' />
+          <div className='image' style={{ position: 'relative' }}>
+            <Image layout='fill' src={`/images/blog-3.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>

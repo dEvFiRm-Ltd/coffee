@@ -12,7 +12,7 @@ const AboutUs = () => {
 
       <div className='row'>
         <div className='image'>
-          <Image src={`/images/about-img.jpeg`} alt='' />
+          <Image src={`/images/about-img.jpeg`} layout='fill' alt='' />
         </div>
 
         <div className='content'>

@@ -24,7 +24,17 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image src={`/images/product-1.png`} alt='' />
+            <div
+              style={{
+                height: '25rem',
+                width: '16rem',
+                margin: '0 auto',
+                position: 'relative',
+              }}
+            >
+              {' '}
+              <Image layout='fill' src={`/images/product-1.png`} alt='' />
+            </div>
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>
@@ -54,7 +64,17 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image src={`/images/product-2.png`} alt='' />
+            <div
+              style={{
+                height: '25rem',
+                width: '16rem',
+                margin: '0 auto',
+                position: 'relative',
+              }}
+            >
+              {' '}
+              <Image layout='fill' src={`/images/product-2.png`} alt='' />
+            </div>
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>
@@ -84,7 +104,17 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image src={`/images/product-3.png`} alt='' />
+            <div
+              style={{
+                height: '25rem',
+                width: '16rem',
+                margin: '0 auto',
+                position: 'relative',
+              }}
+            >
+              {' '}
+              <Image layout='fill' src={`/images/product-3.png`} alt='' />
+            </div>
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>

@@ -12,7 +12,17 @@ const Team = () => {
 
       <div className='box-container'>
         <div className='box'>
-          <Image src={`/images/menu-1.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-1.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
@@ -23,7 +33,17 @@ const Team = () => {
         </div>
 
         <div className='box'>
-          <Image src={`/images/menu-2.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-2.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
@@ -34,7 +54,17 @@ const Team = () => {
         </div>
 
         <div className='box'>
-          <Image src={`/images/menu-3.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-3.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
@@ -45,7 +75,17 @@ const Team = () => {
         </div>
 
         <div className='box'>
-          <Image src={`/images/menu-4.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-4.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
@@ -56,7 +96,17 @@ const Team = () => {
         </div>
 
         <div className='box'>
-          <Image src={`/images/menu-5.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-5.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
@@ -67,7 +117,17 @@ const Team = () => {
         </div>
 
         <div className='box'>
-          <Image src={`/images/menu-6.png`} alt='' />
+          <div
+            style={{
+              height: '10rem',
+              width: '10rem',
+              position: 'relative',
+              margin: '0 auto',
+            }}
+          >
+            {' '}
+            <Image layout='fill' src={`/images/menu-6.png`} alt='' />
+          </div>
           <h3>tasty and healty</h3>
           <div className='price'>
             $15.99 <span>20.99</span>
