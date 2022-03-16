@@ -13,10 +13,7 @@ const Blogs = () => {
       <div className='box-container'>
         <div className='box'>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/blog-1.jpeg`}
-              alt=''
-            />
+            <Image src={`/images/blog-1.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>
@@ -35,10 +32,7 @@ const Blogs = () => {
 
         <div className='box'>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/blog-2.jpeg`}
-              alt=''
-            />
+            <Image src={`/images/blog-2.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>
@@ -57,10 +51,7 @@ const Blogs = () => {
 
         <div className='box'>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/blog-3.jpeg`}
-              alt=''
-            />
+            <Image src={`/images/blog-3.jpeg`} alt='' />
           </div>
           <div className='content'>
             <a href='!#' className='title'>

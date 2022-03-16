@@ -6,7 +6,7 @@ const Navigation = () => {
   return (
     <header className='header'>
       <a href='#!' className='logo'>
-        <Image src={`${process.env.PUBLIC_URL}/images/logo.png`} alt='' />
+        <Image src={`/images/logo.png`} alt='' />
       </a>
 
       <nav className='navbar'>
@@ -49,10 +49,7 @@ const Navigation = () => {
       <div className='cart-items-container'>
         <div className='cart-item'>
           <span className='fas fa-times' />
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/cart-item-1.png`}
-            alt=''
-          />
+          <Image src={`/images/cart-item-1.png`} alt='' />
           <div className='content'>
             <h3>cart item 01</h3>
             <div className='price'>$15.99/-</div>
@@ -60,10 +57,7 @@ const Navigation = () => {
         </div>
         <div className='cart-item'>
           <span className='fas fa-times' />
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/cart-item-2.png`}
-            alt=''
-          />
+          <Image src={`/images/cart-item-2.png`} alt='' />
           <div className='content'>
             <h3>cart item 02</h3>
             <div className='price'>$15.99/-</div>
@@ -71,10 +65,7 @@ const Navigation = () => {
         </div>
         <div className='cart-item'>
           <span className='fas fa-times' />
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/cart-item-3.png`}
-            alt=''
-          />
+          <Image src={`/images/cart-item-3.png`} alt='' />
           <div className='content'>
             <h3>cart item 03</h3>
             <div className='price'>$15.99/-</div>
@@ -82,10 +73,7 @@ const Navigation = () => {
         </div>
         <div className='cart-item'>
           <span className='fas fa-times' />
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/cart-item-4.png`}
-            alt=''
-          />
+          <Image src={`/images/cart-item-4.png`} alt='' />
           <div className='content'>
             <h3>cart item 04</h3>
             <div className='price'>$15.99/-</div>

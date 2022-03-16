@@ -12,10 +12,7 @@ const AboutUs = () => {
 
       <div className='row'>
         <div className='image'>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/about-img.jpeg`}
-            alt=''
-          />
+          <Image src={`/images/about-img.jpeg`} alt='' />
         </div>
 
         <div className='content'>

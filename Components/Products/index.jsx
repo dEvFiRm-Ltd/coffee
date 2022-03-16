@@ -24,10 +24,7 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/product-1.png`}
-              alt=''
-            />
+            <Image src={`/images/product-1.png`} alt='' />
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>
@@ -57,10 +54,7 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/product-2.png`}
-              alt=''
-            />
+            <Image src={`/images/product-2.png`} alt='' />
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>
@@ -90,10 +84,7 @@ const Products = () => {
             </a>
           </div>
           <div className='image'>
-            <Image
-              src={`${process.env.PUBLIC_URL}/images/product-3.png`}
-              alt=''
-            />
+            <Image src={`/images/product-3.png`} alt='' />
           </div>
           <div className='content'>
             <h3>fresh coffee</h3>

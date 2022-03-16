@@ -7,7 +7,7 @@ const Hero = () => {
       className='home'
       id='home'
       style={{
-        background: `url(${process.env.PUBLIC_URL}/images/home-img.jpeg) no-repeat`,
+        background: `url(/images/home-img.jpeg) no-repeat`,
       }}
     >
       <div className='content'>

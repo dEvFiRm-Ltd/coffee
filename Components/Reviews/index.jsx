@@ -12,21 +12,13 @@ const Reviews = () => {
 
       <div className='box-container'>
         <div className='box'>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/quote-img.png`}
-            alt=''
-            className='quote'
-          />
+          <Image src={`/images/quote-img.png`} alt='' className='quote' />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
             sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
             quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
           </p>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/pic-1.png`}
-            className='user'
-            alt=''
-          />
+          <Image src={`/images/pic-1.png`} className='user' alt='' />
           <h3>john deo</h3>
           <div className='stars'>
             <i className='fas fa-star' />
@@ -38,21 +30,13 @@ const Reviews = () => {
         </div>
 
         <div className='box'>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/quote-img.png`}
-            alt=''
-            className='quote'
-          />
+          <Image src={`/images/quote-img.png`} alt='' className='quote' />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
             sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
             quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
           </p>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/pic-2.png`}
-            className='user'
-            alt=''
-          />
+          <Image src={`/images/pic-2.png`} className='user' alt='' />
           <h3>john deo</h3>
           <div className='stars'>
             <i className='fas fa-star' />
@@ -64,21 +48,13 @@ const Reviews = () => {
         </div>
 
         <div className='box'>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/quote-img.png`}
-            alt=''
-            className='quote'
-          />
+          <Image src={`/images/quote-img.png`} alt='' className='quote' />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla
             sit libero nemo fuga sequi nobis? Necessitatibus aut laborum, nisi
             quas eaque laudantium consequuntur iste ex aliquam minus vel? Nemo.
           </p>
-          <Image
-            src={`${process.env.PUBLIC_URL}/images/pic-3.png`}
-            className='user'
-            alt=''
-          />
+          <Image src={`/images/pic-3.png`} className='user' alt='' />
           <h3>john deo</h3>
           <div className='stars'>
             <i className='fas fa-star' />
