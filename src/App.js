@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import UserPanel from './components';
+import UserPanel from './Components';
 
 const App = () => {
   return (
