@@ -1,15 +1,28 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import UserPanel from './Components';
+/* User Panel */
+import AboutUs from './Components/AboutUs';
+import Blogs from './Components/Blogs';
+import ContactUs from './Components/Contact';
+import Footer from './Components/Footer';
+import Hero from './Components/Hero';
+import Navigation from './Components/Navigation';
+import Products from './Components/Products';
+import Reviews from './Components/Reviews';
+import Team from './Components/Team';
+import './Components/user.css';
 
 const App = () => {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path='/' exact element={<UserPanel />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <div className='users'>
+      <Navigation />
+      <Hero />
+      <AboutUs />
+      <Team />
+      <Products />
+      <Reviews />
+      <ContactUs />
+      <Blogs />
+      <Footer />
+    </div>
   );
 };
 
